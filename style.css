@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+  color: #11999E;
+}
+hr{
+  width:5%;
+  color:#a9dada;
+  border: dotted 6px;
+  border-bottom: none;
+  margin:60px auto ;
+
+}
+
+.middle-container img {
+  border-radius: 200px;
+  width=500px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile>img {
+  border-radius: 50%;
+  width: 116px;
+  height: 130px;
+}
+
+.profile {
+  align-items: center;
+}
+
+.skills {
+  margin: 0px 90px;
+}
+
+.footer-link {
+  text-decoration: none;
+  border: none;
+  border-radius: 26px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0px 30px;
+  width: 179px;
+  padding: 10px 20px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.footer-link:hover{
+  color: #30ccb2;
+  background-color: aliceblue;
+  padding: 10px 20px;
+}
+
+.bottom-container {
+  color: #cc3075;
+  float: none;
+  text-decoration: none;
+  background-color: #91e8da;
+  height: 118px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.skill-row: {
+  margin: 20px 0px;
+}
+
+.skill-row:nth-child(odd) {
+  margin: 20px 0px;
+  box-shadow:none;
+  width: 100%;
+  text-align: left;
+  line-height: 2;
+  float: right;
+}
+.skill-row:nth-child(odd):hover{
+  box-shadow: 5px 1px 10px #888888;
+  width:
+}
+
+.skill-row:nth-child(odd)>img {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row:nth-child(even)
+  {
+  width: 100%;
+  text-align: right;
+  margin: 10px 0px;
+  line-height: 2;
+  float: right;
+}
+.skill-row:nth-child(even):hover{
+  box-shadow: 5px 1px 10px #888888;
+}
+
+.skill-row:nth-child(even)>img {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.touch {
+  clear: both;
+  width: 100%;
+  padding: 46px 0px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(224, 162, 180, 1) 43%, rgba(145, 232, 218, 1) 100%);
+  color: white;
+  font-size: 23px;
+  font-family: cursive;
+}
